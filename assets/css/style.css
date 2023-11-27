@@ -1,0 +1,414 @@
+@charset "UTF-8";
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+html {
+    background-color: #F7F6FB;
+}
+
+main {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+/* Header */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 100px;
+    margin-bottom: 1px solid;
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.20), 0px 2px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: 900;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.308);
+    border: 1px;
+}
+
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu ul li a {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 16px;
+    text-decoration: none;
+    color: #000;
+}
+
+.menu .red {
+    color: #E84949;
+}
+
+/* Main Section */
+
+h1 {
+    color: #343D68;
+}
+
+span#destaque {
+    font-size: 48px;
+}
+
+
+
+button#hire-me {
+    background-color: #E84949;
+    font-size: 18px;
+    color: #fff;
+    border: none;
+    padding: 16px 16px;
+    border-radius: 5px;
+}
+
+p#description {
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.70);
+    font-size: 18px;
+    margin: 30px 0;
+}
+
+#banner {
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px auto;
+    max-height: 100vh;
+}
+#banner div img {
+    width: 15vw;
+    border-radius: 1rem 0;
+    box-shadow: 5px 10px 20px #0000006e ;
+}
+
+/* Skills Section */
+
+#skills {
+    margin: 64px 0;
+    max-height: 100vh;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #E84949;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#skills div {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 64px 0;
+}
+
+.tecnologies-description {
+    display: flex;
+    flex-direction: column;
+    color: #818080;
+    font-size: 18px;
+}
+
+div#tecnologies {
+    display: flex;
+    align-items: center;
+    gap: 42px;
+    flex-wrap: wrap;
+}
+
+/* Projects Section */
+
+#projects {
+    background-color: #343D68;
+    margin: 64px auto;
+    max-height: 100vh;
+}
+
+#projects h2, #projects p {
+    text-align: center;
+    padding-top: 32px;
+    color: #fff;
+}
+
+#project-banners{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 32px 0;
+}
+
+.project {
+    width: 20vw;
+    background-color: #fff;
+    border: 5px solid;
+    border-image:linear-gradient(#0D54BE, #5c74ff) 30;
+    box-shadow: 5px 10px 20px #0000006e ;
+    margin: 32px auto;
+    text-align: center;
+}
+
+.prototype {
+    background-image: url(../sprites/Eu-dragão.JPG);
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+}
+
+.project-description{
+    padding: 15px;
+    background-color: #262C4D;
+    height: 40%;
+}
+
+.project-description p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 16px;
+}
+
+.project-description button {
+    background-color: transparent;
+    padding: 8px 16px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 12px;
+}
+
+/* Contact-me Section */
+
+#contact-me {
+    background-color: transparent;
+    max-height: 200vh;
+}
+
+#contact-me div {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#contact-me div div img{
+    width: 30vw;
+}
+
+#form form {
+    text-align: center;
+    width: 20vw;
+}
+
+#form form textarea{
+    resize: none;
+}
+
+#form form button{
+    display: flex;
+    color: white;
+    font-weight: 200;
+    padding: 12px 24px;
+    background-color: #343D68;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#form form button img{
+    margin-left: 20px;
+    width: 24px;
+}
+
+#email {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 14px;
+    margin-bottom: 43px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.20), 0px 2px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+#message {
+    width: 100%;
+    padding: 12px 18px;
+    font-size: 14px;
+    margin-bottom: 43px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.178);
+    box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.20), 0px 2px 1px 0px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    max-height: 30vh;
+    padding: 100px 0;
+    background-image: url(../sprites/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer div h2 {
+    color: white;
+}
+
+footer div p {
+    font-size: 18px;
+    font-weight: 200;
+    color: white;
+}
+
+footer div a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #0ACBBF;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    /* Body */
+
+    main {
+        width: 100vw;
+        padding: 0 20px;
+        margin: 0 auto;
+        background-color: #F7F6FB;
+        text-align: center;
+    }
+
+    /* Header */
+
+    .container {
+        padding: 16px 10px;
+    }
+
+    .menu ul li a {
+        font-size: 16px;
+        padding: 0 8px;
+    }
+
+    /* Main Banner */
+
+    #banner {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #banner div img {
+        width: 40vw;
+        border-radius: 1rem 0;
+        box-shadow: 5px 10px 20px #0000006e ;
+    }
+
+    /* Skills */
+
+    #skills {
+        margin: 64px 0;
+        padding: 64px 0;
+        max-height: 200vh;
+        text-align: center;
+    }
+
+    #skill-img {
+        width: 40vw;
+    }
+    
+    #skills div {
+        flex-direction: column;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    
+    div#tecnologies {
+        flex-direction: row;
+    }
+
+    /* Projects */
+
+    #projects {
+        max-height: 300vh;
+    }
+    
+    #project-banners{
+        flex-direction: column;
+    }
+    
+    .project {
+        width: 80%;
+    }
+    
+    #contact-me div {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    
+
+    /* Contact-me */
+
+    #contact-me {
+        max-height: 200vh;
+    }
+
+    
+    #contact-me div div img{
+        width: 50vw;
+        margin-bottom: 32px;
+    }
+    
+    #form form {
+        width: 80vw;
+    }
+    
+    #form form button{
+        margin: 0 auto 32px;
+        padding: 16 24px;
+    
+    }
+    
+    #form form button img{
+        display: none;
+    }
+
+    /* Footer */
+
+    footer {
+        background-color: transparent;
+        flex-direction: column;
+    }
+    
+    footer div {
+        margin-bottom: 20px;
+    }
+
+    footer div h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
