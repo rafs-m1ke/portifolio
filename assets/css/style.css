@@ -164,10 +164,21 @@ div#tecnologies {
 }
 
 .prototype {
-    background-image: url(../sprites/Eu-dragão.JPG);
     background-size: cover;
     background-position: center;
     height: 250px;
+}
+
+.prot-img1 {
+    background-image: url(../sprites/Petlife.png);
+}
+
+.prot-img2 {
+    background-image: url(../sprites/Youtube\ -\ Flexbox.png);
+}
+
+.prot-img3 {
+    background-image: url(../sprites/landing-page.png);
 }
 
 .project-description{
@@ -192,6 +203,11 @@ div#tecnologies {
     font-size: 14px;
     font-weight: 200;
     margin-bottom: 12px;
+}
+
+.project-description button:hover {
+    cursor: pointer;
+    background-color: #ffffff4f;
 }
 
 /* Contact-me Section */
@@ -228,6 +244,7 @@ div#tecnologies {
     background-color: #343D68;
     border: none;
     border-radius: 5px;
+    margin: auto;
 
 }
 
