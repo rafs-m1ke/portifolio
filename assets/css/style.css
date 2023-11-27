@@ -302,6 +302,8 @@ footer div a {
 
     .container {
         padding: 16px 10px;
+        gap: 10px;
+        flex-direction: column;
     }
 
     .menu ul li a {
