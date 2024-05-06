@@ -1,0 +1,14 @@
+header {
+    padding: 1.5rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: .5px solid var(--titles-color);
+}
+
+header p {
+    color: var(--titles-color);
+    font-size: 1.125rem;
+}
+
+

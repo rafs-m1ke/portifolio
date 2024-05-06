@@ -1,184 +1,32 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rafael Silva | Dev</title>
-    <link
-      rel="shortcut icon"
-      href="assets/sprites/favicon.jpg"
-      type="image/x-icon"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@100;300;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
     <header>
-      <div class="container">
-        <div class="logo">
-          <span id="logo">@rafs.m1ke</span>
-        </div>
-        <div class="menu">
-          <ul>
-            <li><a href="#skills">Skills</a></li>
-            <li><a class="red" href="#projects">Projetos</a></li>
-            <li><a href="#contact-me">Contato</a></li>
-          </ul>
-        </div>
-      </div>
+        <p>Rafael Silva</p>
+        <img src="./assets/menu.svg" alt="Menu">
     </header>
     <main>
-      <section id="banner">
-        <div>
-          <h1>
-            Olá! 👋, sou <br /><span id="destaque">Engenheiro de Software</span>
-          </h1>
-          <p id="description">
-            Meu nome é Rafael Silva, sou desenvolvedor Full Stack.
-          </p>
-          <button id="hire-me" type="button">Contrate-me</button>
-        </div>
-        <div>
-          <img
-            src="assets/sprites/Eu-dragão.JPG"
-            alt="Foto de perfil"
-            title="Foto de perfil do Rafael Silva"
-          />
-        </div>
-      </section>
+        <section class="presentation">
+            <p class="hi">Hi all. I am</p>
+            <h1 class="name">Rafael Silva</h1>
+            <p class="stack">> Full Stack Dev</p>
+        </section>
 
-      <section id="skills">
-        <h2>Skills</h2>
-        <div>
-          <div>
-            <div class="tecnologies-description">
-              <p>Tenho uma vasta experiência nas seguintes tecnologias:</p>
-              <div id="tecnologies">
-                <img src="assets/sprites/html5.svg" width="80px" alt="HTML5" />
-                <img src="assets/sprites/css3.svg" width="80px" alt="CSS3" />
-                <img
-                  src="assets/sprites/javascript.svg"
-                  alt="JavaScript"
-                  width="80px"
-                />
-                <img
-                  src="assets/sprites/bootstrap.png"
-                  width="50px"
-                  alt="Bootstrap"
-                />
-              </div>
-            </div>
-          </div>
-          <div>
-            <img
-              id="skill-img"
-              src="assets/sprites/image-1.png"
-              alt="Figura"
-              title="Ilustração"
-            />
-          </div>
-        </div>
-      </section>
+        <section class="social">
+            <p class="comment">
+                // find my profile on Github:
+            </p>
 
-      <section id="projects">
-        <h2>Projetos</h2>
-        <p>Segue abaixo alguns de meus projetos!</p>
-        <div id="project-banners">
-          <div class="project">
-            <div class="prototype prot-img1"></div>
-            <div class="project-description">
-              <p>
-                Página de PetShop / clínica veterinária, usando HTML 5, CSS e JS.
-              </p>
-              <a href="https://rafs-m1ke.github.io/OneBitCode/Projetos/Petlife/" target="_blank"><button type="button">Veja mais</button></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="prototype prot-img2"></div>
-            <div class="project-description">
-              <p>
-                Replicação da página de vídeo do Youtube, usando conceitos de Flexbox.
-              </p>
-              <a href="https://rafs-m1ke.github.io/dio.me/formacaoCssWebDev/Modulo-2/dasafio-youtube/" target="_blank"><button type="button">Veja mais</button></a>
-            </div>
-          </div>
-
-          <div class="project">
-            <div class="prototype prot-img3"></div>
-            <div class="project-description">
-              <p>
-                Landing page Trilha CSS da DIO, usando HTML 5 e CSS.
-              </p>
-              <a href="https://rafs-m1ke.github.io/dio.me/formacaoCssWebDev/Modulo-1/Desafio/" target="_blank"><button type="button">Veja mais</button></a>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact-me">
-        <h2>Contate-me</h2>
-        <div>
-          <div>
-            <img
-              id="contact-img"
-              src="assets/sprites/image-2.png"
-              alt="Image"
-            />
-          </div>
-          <div id="form">
-            <form action="">
-              <input
-                name="email"
-                id="email"
-                type="email"
-                placeholder="Digite seu melhor email"
-              /><br />
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder="Digite sua mensagem"
-              ></textarea>
-
-              <button type="submit">
-                Enviar mensagem
-                <img src="assets/sprites/paper plane 1.png" alt="" />
-              </button>
-            </form>
-          </div>
-        </div>
-      </section>
+            <p class="profile">
+                <span id="const">const</span> githubLink <span class="equal">=</span> <a id="githublink" href="https://github.com/rafs-m1ke" target="_blank">"https://github.com/rafs-m1ke"</a>
+            </p>
+        </section>
     </main>
-
-    <footer>
-      <div>
-        <h2>Minhas redes sociais:</h2>
-        <a href="https://www.linkedin.com/in/rafaelmike/" target="blank"
-          ><img
-            src="assets/sprites/linkedin.svg"
-            alt="Linkedin"
-            title="Linkedin Icon"
-        /></a>
-      </div>
-      <div>
-        <h2>Mais projetos no</h2>
-        <p>@<a href="https://github.com/rafs-m1ke">rafs-m1ke</a> no GitHub</p>
-      </div>
-    </footer>
-  </body>
+</body>
 </html>

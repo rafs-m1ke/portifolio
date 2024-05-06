@@ -1,0 +1,23 @@
+.presentation {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    margin-left: 2rem;
+}
+
+.hi,
+.name {
+    color: var(--text-color);
+    font-size: 1.125rem;
+}
+
+.name {
+    font-size: 3.875rem;
+}
+
+.stack {
+    color: var(--cyan-green);
+    font-size: 1.25rem;
+}

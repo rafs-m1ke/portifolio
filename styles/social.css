@@ -1,0 +1,30 @@
+.social {
+    padding: 0 3rem 0 2rem;
+}
+
+.social p {
+    font-size: .875rem;
+}
+
+.profile {
+    color: var(--cyan-green);
+    line-break: anywhere;
+}
+
+.comment {
+    color: var(--titles-color);
+    margin-bottom: 1rem;
+}
+
+#const {
+    color: var(--const-purple);
+}
+
+.equal {
+    color: var(--text-color);
+}
+
+#githublink {
+    color: var(--link-color);
+    text-decoration: none;
+}
