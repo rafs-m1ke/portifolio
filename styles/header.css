@@ -3,7 +3,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: .5px solid var(--titles-color);
+    border-bottom: .5px solid #607b9662;
+    position: relative;
+    font-size: 1.125rem;
 }
 
 header p {
@@ -11,4 +13,53 @@ header p {
     font-size: 1.125rem;
 }
 
+header ul {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--bg-color);
+}
 
+header ul li {
+    padding: 1rem;
+    border-bottom: 1px solid #607b9662;
+}
+
+.litop {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem 2rem;
+
+}
+
+header ul a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+#menu {
+    display: none;
+}
+
+#menu:checked ~ ul {
+    display: block;
+}
+
+.find {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+    position: absolute;
+    bottom: 0;
+    border: 1px solid #607b9662;
+    padding: 0 0 0 1rem;
+}
+
+.find img {
+    border-left: 1px solid #607b9662;
+}
